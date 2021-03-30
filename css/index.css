@@ -28,7 +28,7 @@ aside.title-bar.contact-bar {background-image: url(../img/parallax3.jpg);}
 .header-wrapper > .mo-bars:hover {background-color: #111; color: #f9f9f9;}
 .header-wrapper.active {color: #111; background-color: #fff; box-shadow: 0 0 8px rgba(0, 0, 0, .5); transition: transform 0.25s; transition-timing-function: linear;}
 
-.monavi-wrapper {width: 100%; position: fixed; top: 48px; background-color: #fff; display: none;}
+.monavi-wrapper {width: 100%; position: fixed; top: 48px; background-color: #fff; display: none; z-index: 8; box-shadow: 0 0 8px rgba(0, 0, 0, .5);}
 .monavi-wrapper > .monavi {padding: 1em;}
 .monavi-wrapper > .monavi:hover {background-color: #eee;}
 
